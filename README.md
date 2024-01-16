@@ -1,10 +1,10 @@
 # SVM-weatherClassification-MWD
 
 ## Overview
-This project implements a machine learning solution for classifying weather conditions in images using the MWD dataset. The approach uses Support Vector Machine (SVM) and Principal Component Analysis (PCA) for feature reduction and classification.
+This project implements a machine learning solution for classifying weather conditions in images using the MWD dataset. The approach uses Support Vector Machine (SVM) and Principal Component Analysis (PCA) for feature reduction and classification. 
 
 ## Dataset
-The MWD dataset consists of 1125 images categorized into distinct weather classes. Some images were excluded due to loading issues.
+The MWD dataset consists of 1125 images categorized into distinct weather classes. Some images were excluded due to loading issues. The dataset is also present in this repository.
 
 ## Methodology
 Features extracted include color space data histograms and Difference of Gaussian (DoG) features. The project iteratively improved feature selection for SVM performance, emphasizing feature quality.
@@ -13,7 +13,7 @@ Features extracted include color space data histograms and Difference of Gaussia
 Implemented in Python within a Jupyter Notebook, using libraries such as Matplotlib, Scikit-learn, seaborn, OpenCV, and Numpy.
 
 ## Results
-The SVM model achieved high accuracy in classifying various weather conditions, with detailed results and analysis available in the accompanying report.
+The SVM model achieved high accuracy (96%) in classifying various weather conditions from unseen data, with detailed results and analysis available in the accompanying report.
 
 ## Future Work
 Potential improvements include semantic segmentation for more complex analyses.
